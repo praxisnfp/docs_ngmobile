@@ -2,17 +2,17 @@
 
 .. _ngmob_intro:
 
-Introduction to Praxis
+Introduction
 =============
 
 .. _ngmob_purpose:
 
-Software description
+About the App
 ------------------------
 
-**NextGIS Mobile** - is a mobile :term:`geographic information system` (:abbr:`GIS`) for :term:`Android` OS.
+**NextGIS Mobile** - is a mobile :term:`Geographic Information System` (:abbr:`GIS`) for :term:`Android` OS.
 
-NextGIS Mobile allows to:
+NextGIS Mobile App allows to:
 
 * display a map from a set of layers;
 * perform map navigation (zoom in, zoom out, roam);
@@ -42,15 +42,12 @@ Some icons used in NextGIS Mobile are from:
    
    .. image:: _static/cc_by.png  
 
-Documentation is describing NextGIS Mobile version 2.2. Newer versions of NextGIS Mobile may be currently available.
-
- 
 .. _ngmobile_launch_conditions:
 
-Hardware and software requirements
+Hardware and Software Requirements
 -------------------------------------
 
-To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term: `Android` 2.2 or higher.
+To launch NextGIS Mobile you need a device (smartphone, tablet, etc.) with :term: Android` 4.4 or higher.
 
 To be able to use all NextGIS Mobile features the device should have the following hardware:
 
