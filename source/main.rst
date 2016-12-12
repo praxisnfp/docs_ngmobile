@@ -42,47 +42,21 @@ The number of buttons in top toolbar depends on your device screen size. If the 
 "Add geodata" button (item 3 in :numref:`ngmobile_main_activity_pic`) allows you to select the data source using the following menu:
 
 * Open local
-* Add web
-* Add from NGW
+* Add geoservice
+* Add from NextGIS Web
 
 By using "Open local" menu item you can upload :term:`geodata` from SD card or cloud storage, in one of the following formats:
 
 * :term:`GeoJSON` file;
 * ZIP file with cached tiles;
+* *.ngrc format;
 * *.ngfp format.
 
 More information about geodata upload can be found in ":ref:`ngmobile_load_geodata`" section.
 
 **Map screen** (item 6 in :numref:`ngmobile_main_activity_pic`) is a set of raster and vector layers. Hierarchy and visibility of layers can be configured in the layers tree panel (see :ref:`ngmobile_layer_tree`).
 
-Long-press on vector layer geometry switches map screen into Selection mode (see :numref:`ngmobile_selectmode_pic`).
 
-.. figure:: _static/ngmobile_selectmode.png
-   :name: ngmobile_selectmode_pic
-   :align: center
-   :height: 11cm
-
-   Map screen in Selection mode.
-
-   The numbers indicate: 1 - Selected geometry; 2 - "View attributes" button; 3 - "Delete geometry" button; 4 - "Edit geometry" button; 5 - Cancel button.
-   
-If Status bar was active before switching to Selection mode, it will be hidden and replaced by Bottom toolbar with the following buttons:
-
-* Cancel
-* Edit selected geometry (see :ref:`ngmobile_editing`)
-* Delete selected geometry
-* View attributes of selected geometry.
-
-Attributes are displayed in a separate panel. Panel can be opened in full-screen mode or be placed on the right side of screen, depending on your device screen size (in the latter case, on the left side a map with a selected and highlighted geometry is displayed). Attributes panel is shown on :numref:`ngmobile_attributes_pic`.
-
-.. figure:: _static/ngmobile_attributes.png
-   :name: ngmobile_attributes_pic
-   :align: center
-   :height: 10cm
-   
-   Attributes panel.
-
-There are the following buttons at the bottom of the Attributes panel: "Cancel" and "Switch between entries" (If Status bar was active before opening Attributes panel, it will be hidden and replaced by these buttons).
 
 **Status bar** can be shown at the bottom of the Main screen (if it is activated in the Settings). Status bar shows:
 
@@ -116,7 +90,9 @@ For turning  layer visibility on/off press Layer visibility button (item 3 in :n
 Layer contextual menu depends on layer's type. Vector layer contextual menu contains the following items:
 
 * Zoom to extent
+* Attributes
 * Share
+* Edit
 * Delete
 * Settings
 
@@ -142,7 +118,7 @@ There are following Settings on the main panel:
 * Map
 * Location
 * My tracks
-* NextGIS Web
+* NextGIS settings
 
 "Map" settings allow to change basic settings of the map (see :numref:`ngmobile_settings_map_pic`).
 
