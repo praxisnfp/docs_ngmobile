@@ -55,7 +55,7 @@ master_doc = 'index'
 # General information about the project.
 project = u'Gramrekha Mobile GIS App'
 copyright = u'2016-2017, Praxis Management Consulting'
-author = u'Praxis'
+author = u'Abhay Kulkarni'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -245,7 +245,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'GramrekhaMobile.tex', u'Gramrekha Mobile documentation',
+  (master_doc, 'GramrekhaMobile.tex', u'Gramrekha Mobile GIS App Documentation',
    author, 'manual', 'true'),
 ]
 
@@ -275,7 +275,7 @@ latex_appendices = ['appendix']
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'nextgismobile', u'Gramrekha Mobile documentation',
+    (master_doc, 'nextgismobile', u'Gramrekha Mobile GIS App Documentation',
      [author], 1)
 ]
 
@@ -289,7 +289,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'GramrekhaMobile', u'Gramrekha Mobile documentation',
+  (master_doc, 'GramrekhaMobile', u'Gramrekha Mobile GIS App Documentation',
    author, 'GramrekhaMobile', 'One line description of project.',
    'Miscellaneous'),
 ]
