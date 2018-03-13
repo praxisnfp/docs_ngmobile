@@ -15,7 +15,8 @@ Table of Contents
    main
    load_geodata
    editing
+   layer_settings
    tracks
    share  
-   layer_settings
-   ngw_integration
+
+
